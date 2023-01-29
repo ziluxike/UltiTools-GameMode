@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.github.wisdommen:1_8_R2:2.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/wisdommen/1_8_R2/2.0.0-SNAPSHOT/1_8_R2-2.0.0-20230110.081254-14.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/wisdommen/1_8_R2/2.0.0-SNAPSHOT/1_8_R2-2.0.0-20230110.081254-14-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/wisdommen/1_8_R2/2.0.0-SNAPSHOT/1_8_R2-2.0.0-20230110.081254-14-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
