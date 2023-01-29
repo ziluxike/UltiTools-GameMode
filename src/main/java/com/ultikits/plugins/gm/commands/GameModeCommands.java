@@ -1,6 +1,6 @@
-package com.ultikits.plugins.heal.commands;
+package com.ultikits.plugins.gm.commands;
 
-import com.ultikits.plugins.heal.service.GameModeService;
+import com.ultikits.plugins.gm.service.GameModeService;
 import com.ultikits.ultitools.abstracts.AbstractPlayerCommandExecutor;
 import com.ultikits.ultitools.abstracts.UltiToolsPlugin;
 import org.bukkit.command.Command;

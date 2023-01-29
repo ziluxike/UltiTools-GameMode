@@ -1,9 +1,9 @@
-package com.ultikits.plugins.heal;
+package com.ultikits.plugins.gm;
 
-import com.ultikits.plugins.heal.commands.GameModeCommands;
-import com.ultikits.plugins.heal.service.GameModeService;
-import com.ultikits.plugins.heal.service.GameModeServiceImpl;
-import com.ultikits.plugins.heal.service.GameModeServiceRegister;
+import com.ultikits.plugins.gm.commands.GameModeCommands;
+import com.ultikits.plugins.gm.service.GameModeService;
+import com.ultikits.plugins.gm.service.GameModeServiceImpl;
+import com.ultikits.plugins.gm.service.GameModeServiceRegister;
 import com.ultikits.ultitools.abstracts.UltiToolsPlugin;
 
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package com.ultikits.plugins.heal.service;
+package com.ultikits.plugins.gm.service;
 
 import com.ultikits.ultitools.abstracts.ServiceRegister;
 import com.ultikits.ultitools.interfaces.Registrable;

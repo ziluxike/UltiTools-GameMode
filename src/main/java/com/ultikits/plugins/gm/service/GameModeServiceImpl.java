@@ -1,6 +1,6 @@
-package com.ultikits.plugins.heal.service;
+package com.ultikits.plugins.gm.service;
 
-import com.ultikits.plugins.heal.PluginMain;
+import com.ultikits.plugins.gm.PluginMain;
 import org.bukkit.ChatColor;
 import org.bukkit.GameMode;
 import org.bukkit.entity.Player;
