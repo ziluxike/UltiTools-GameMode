@@ -3,5 +3,6 @@
   "成功切换为生存模式!": "successfully switched to survival mode",
   "成功切换为创造模式!": "Successfully switched to creative mode",
   "成功切换为冒险模式!": "Successfully switched to adventure mode",
-  "成功切换为旁观模式!": "Successfully switched to spectator mode"
+  "成功切换为旁观模式!": "Successfully switched to spectator mode",
+  "切换失败，请检查是否有权限使用该命令!": "Switchover failed, please check whether you have permission to use this command!"
 }

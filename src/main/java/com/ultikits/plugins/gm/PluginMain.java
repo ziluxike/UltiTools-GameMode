@@ -42,7 +42,7 @@ public class PluginMain extends UltiToolsPlugin {
 
     @Override
     public int minUltiToolsVersion() {
-        return 0;
+        return 600;
     }
 
     @Override
