@@ -9,7 +9,4 @@ public class PermissionGroup {
     public final static String CREATIVE = "ultikits.tools.gm.creative";
     public final static String ADVENTURE = "ultikits.tools.gm.adventure";
     public final static String SPECTATOR = "ultikits.tools.gm.spectator";
-
-
-
 }
