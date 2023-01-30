@@ -1,9 +1,9 @@
 package com.ultikits.plugins.gm.commands;
 
+import com.ultikits.plugins.gm.PluginMain;
 import com.ultikits.plugins.gm.service.GameModeService;
 import com.ultikits.ultitools.abstracts.AbstractPlayerCommandExecutor;
 import com.ultikits.ultitools.abstracts.UltiToolsPlugin;
-import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
@@ -47,14 +47,12 @@ public class GameModeCommands extends AbstractPlayerCommandExecutor {
 
     @Override
     protected void sendHelpMessage(CommandSender sender) {
-        sender.sendMessage(
-                ChatColor.WHITE + "--------------------------" +
-                ChatColor.WHITE + "/gm 0 " + ChatColor.YELLOW + "切换为生存模式\n" +
-                ChatColor.WHITE + "/gm 1 " + ChatColor.YELLOW + "切换为创造模式\n" +
-                ChatColor.WHITE + "/gm 2 " + ChatColor.YELLOW + "切换为冒险模式\n" +
-                ChatColor.WHITE + "/gm 3 " + ChatColor.YELLOW + "切换为旁观模式\n" +
-                ChatColor.WHITE + "--------------------------"
-        );
+        String help = "§2==== 游戏模式切换功能 ====\n" +
+                "§6/gm 0 §4切换为生存模式\n" +
+                "§6/gm 1 §4切换为创造模式\n" +
+                "§6/gm 2 §4切换为冒险模式\n" +
+                "§6/gm 3 §4切换为旁观模式\n";
+        sender.sendMessage(PluginMain.getPluginMain().i18n(help));
     }
 
 
