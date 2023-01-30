@@ -48,12 +48,12 @@ public class GameModeCommands extends AbstractPlayerCommandExecutor {
     @Override
     protected void sendHelpMessage(CommandSender sender) {
         sender.sendMessage(
-                "--------------------------" +
-                "/gm 0 " + ChatColor.YELLOW + "切换为生存模式\n" + ChatColor.WHITE +
-                "/gm 1 " + ChatColor.YELLOW + "切换为创造模式\n" + ChatColor.WHITE +
-                "/gm 2 " + ChatColor.YELLOW + "切换为冒险模式\n" + ChatColor.WHITE +
-                "/gm 3 " + ChatColor.YELLOW + "切换为旁观模式\n" + ChatColor.WHITE +
-                "--------------------------"
+                ChatColor.WHITE + "--------------------------" +
+                ChatColor.WHITE + "/gm 0 " + ChatColor.YELLOW + "切换为生存模式\n" +
+                ChatColor.WHITE + "/gm 1 " + ChatColor.YELLOW + "切换为创造模式\n" +
+                ChatColor.WHITE + "/gm 2 " + ChatColor.YELLOW + "切换为冒险模式\n" +
+                ChatColor.WHITE + "/gm 3 " + ChatColor.YELLOW + "切换为旁观模式\n" +
+                ChatColor.WHITE + "--------------------------"
         );
     }
 
