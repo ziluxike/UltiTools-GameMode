@@ -16,7 +16,7 @@ public class GameModeCommands extends AbstractPlayerCommandExecutor {
         Optional<GameModeService> service = UltiToolsPlugin.getPluginManager().getService(GameModeService.class);
 
         if (!service.isPresent()) {
-            throw new RuntimeException("未找到模式切换服务！");
+            throw new RuntimeException("未能找到模式切换服务！");
         }
 
         GameModeService gameModeService = service.get();
